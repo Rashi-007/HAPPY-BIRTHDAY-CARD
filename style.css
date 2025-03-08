@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffccff;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background: #fff;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+h1 {
+    color: #ff4081;
+}
+.hidden-message {
+    display: none;
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #d81b60;
+}
